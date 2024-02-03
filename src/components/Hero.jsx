@@ -5,8 +5,8 @@ import img from "../assests/1702113685897.webp";
 
 function Hero() {
   return (
-    <div className="px-10 lg:px-32 xl:px-60  mt-28 mb-28">
-      <div className=" flex  gap-20 mb-28">
+    <div className="px-10 lg:px-16 xl:px-20  mt-10 mb-28">
+      <div className=" flex  gap-20 mb-20">
         <div className="flex-1">
           <h1 className="text-5xl thik font-bold lg:text-7xl text-cyan-900">
             We are changing the way people shop
@@ -23,7 +23,7 @@ function Hero() {
             </button>
           </Link>
         </div>
-        <div className="hidden lg:flex flex-1 " style={{}}>
+        <div className="hidden lg:flex flex-1 -mt-10 ">
           <img className="w-full" src={img} alt="" />
         </div>
       </div>
