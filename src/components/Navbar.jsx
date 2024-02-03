@@ -38,7 +38,7 @@ function Navbar() {
     "py-2 text-lg w-full cursor-pointer duration-300 rounded-lg px-2 hover:px-4 hover:bg-gray-400";
 
   return (
-    <div className="navbar-container bg-gray-200 h-[80px] flex items-center justify-between  px-10 lg:px-32 xl:px-60">
+    <div className="navbar-container bg-gray-200 h-[80px] flex items-center justify-between  px-3 lg:px-16 xl:px-20">
       <Link className="hidden lg:block" to="/">
         <h1 className=" md:block hidden px-5 py-1 hover:bg-blue-600 duration-300 text-white rounded-lg bg-blue-500 text-4xl">
           C

@@ -5,7 +5,7 @@ import img from "../assests/1702113685897.webp";
 
 function Hero() {
   return (
-    <div className="px-10 lg:px-16 xl:px-20  mt-10 mb-28">
+    <div className="px-3 lg:px-16 xl:px-20  mt-10 mb-28">
       <div className=" flex  gap-20 mb-20">
         <div className="flex-1">
           <h1 className="text-5xl thik font-bold lg:text-7xl text-cyan-900">
